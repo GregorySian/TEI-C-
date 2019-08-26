@@ -8,9 +8,9 @@ namespace Themata
         {
             public static void Main(string[] args)
             {
-                Program.Car c1 = new Program.Car();
+                Car c1 = new Car();
                 c1.InputData();
-                Program.Car c2 = new Program.Car("Volvo", 1800, 165);
+                Car c2 = new Car("Volvo", 1800, 165);
                 Console.WriteLine(c2);
             }
         }
