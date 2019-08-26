@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.ComponentModel;
-using System.Dynamic;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Themata
 {
