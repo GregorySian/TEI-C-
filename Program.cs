@@ -1,38 +1,59 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
-namespace themaC_2019
+namespace Thema_Simeio
 {
+    class Simeio
+    {
+        public int _x;
+        public int _y;
+
+        public Simeio()
+        {
+
+        }
+        public Simeio(int x, int y)
+        {
+            _x = x;
+            _y = y;
+        }
+
+        public override string ToString()
+        {
+            return $"x = {_x} y = {_y}" ;
+        }
+    }
+
+    class Kyklos : Simeio
+    {
+        private double r;
+        private static double pi = 3.14;
+
+
+        public Kyklos(int x, int y, double radius): base(x,y)
+        {
+            r = radius;
+        }
+        public double Parameter()
+        {
+            return 2 * pi * r;
+
+        }
+        public override string ToString()
+        {
+            return $"x = {_x} y = {_y} Parameter = {Parameter()}" ;
+        }
+    }
+    
+
     class Program
     {
         static void Main(string[] args)
         {
-          var t1 = new Time(10,15,23);
-          var t2 = new Time(01,03,05);
-          var t = new Time(00,00,00);
-
-
-          int tW = t1.wres + t2.wres;
-          int tL = t1.lepta + t2.lepta;
-          int tD = t1.deytera + t2.deytera;
-
-          t.wres = tW;
-          t.lepta = tL;
-          t.deytera = tD;
-          Console.WriteLine("t is : "  + t);
-
-          int tW2 = t1.wres - t2.wres;
-          int tL2 = t1.lepta - t2.lepta;
-          int tD2 = t1.deytera - t2.deytera;
-
-          t.wres = tW2;
-          t.lepta = tL2;
-          t.deytera = tD2;
-
-          Console.WriteLine("t1 is : " + t1);
-          Console.WriteLine("t2 is : " + t2);
-          Console.WriteLine("t is : " + t);
-
-
+            Simeio s1 = new Simeio(150,200);
+            Kyklos k1 = new Kyklos(50,100,14.2);
+            Console.WriteLine(s1);
+            Console.WriteLine(k1);
         }
     }
 }
