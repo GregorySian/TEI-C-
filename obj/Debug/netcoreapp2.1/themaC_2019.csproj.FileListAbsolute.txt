@@ -1,0 +1,11 @@
+C:\Users\Gregory\source\repos\themaC_2019\bin\Debug\netcoreapp2.1\themaC_2019.deps.json
+C:\Users\Gregory\source\repos\themaC_2019\bin\Debug\netcoreapp2.1\themaC_2019.runtimeconfig.json
+C:\Users\Gregory\source\repos\themaC_2019\bin\Debug\netcoreapp2.1\themaC_2019.runtimeconfig.dev.json
+C:\Users\Gregory\source\repos\themaC_2019\bin\Debug\netcoreapp2.1\themaC_2019.dll
+C:\Users\Gregory\source\repos\themaC_2019\bin\Debug\netcoreapp2.1\themaC_2019.pdb
+C:\Users\Gregory\source\repos\themaC_2019\obj\Debug\netcoreapp2.1\themaC_2019.csprojAssemblyReference.cache
+C:\Users\Gregory\source\repos\themaC_2019\obj\Debug\netcoreapp2.1\themaC_2019.csproj.CoreCompileInputs.cache
+C:\Users\Gregory\source\repos\themaC_2019\obj\Debug\netcoreapp2.1\themaC_2019.AssemblyInfoInputs.cache
+C:\Users\Gregory\source\repos\themaC_2019\obj\Debug\netcoreapp2.1\themaC_2019.AssemblyInfo.cs
+C:\Users\Gregory\source\repos\themaC_2019\obj\Debug\netcoreapp2.1\themaC_2019.dll
+C:\Users\Gregory\source\repos\themaC_2019\obj\Debug\netcoreapp2.1\themaC_2019.pdb
