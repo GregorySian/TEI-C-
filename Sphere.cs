@@ -18,17 +18,17 @@ namespace Thema_2019_Sphere
             return 4.0/3.0 * pi * Math.Pow(_r,3);
         }
 
-        public Sphere(double x, double y, double z, double r)
+        public Sphere(double x, double y, double z, double rad)
         {
             _x = x;
             _y = y;
             _z = z;
-            _r = r;
+            _r = rad;
         }
 
-        public Sphere(double r)
+        public Sphere(double rad)
         {
-            _r = r;
+            _r = rad;
         }
 
         public Sphere() : this(0.0, 0.0, 0.0, 1.0)
@@ -38,7 +38,7 @@ namespace Thema_2019_Sphere
 
         public override String ToString()
         {
-            return $"({_x},{_y},{_z},{_r}) = {Embadon()}";
+            return $"(V{_x},{_y},{_z},{_r}) = {Embadon()}";
         }
     }
 }
