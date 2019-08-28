@@ -13,7 +13,7 @@ namespace Thema_2019_Sphere
         private const double pi = 3.14;
 
 
-        public double Embadon()
+        public double Volume()
         {
             return 4.0/3.0 * pi * Math.Pow(_r,3);
         }
@@ -38,7 +38,7 @@ namespace Thema_2019_Sphere
 
         public override String ToString()
         {
-            return $"V({_x},{_y},{_z},{_r}) = {Embadon()}";
+            return $"V({_x},{_y},{_z},{_r}) = {Volume()}";
         }
     }
 }
