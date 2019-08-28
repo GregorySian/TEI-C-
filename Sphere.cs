@@ -38,7 +38,7 @@ namespace Thema_2019_Sphere
 
         public override String ToString()
         {
-            return $"(V{_x},{_y},{_z},{_r}) = {Embadon()}";
+            return $"V({_x},{_y},{_z},{_r}) = {Embadon()}";
         }
     }
 }
