@@ -10,7 +10,7 @@ namespace Thema_2019_Sphere
             Sphere s2 = new Sphere(5);
             Sphere s3 = new Sphere();
 
-            Console.WriteLine(s1.ToString() + "\n" + s2.ToString() + "\n" + s3.ToString() + "\n" );
+            Console.WriteLine(s1 + "\n" + s2 + "\n" + s3 + "\n" );
 
         }
     }
