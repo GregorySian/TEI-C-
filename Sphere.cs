@@ -10,12 +10,10 @@ namespace Thema_2019_Sphere
         private double _y;
         private double _z;
         private double _r;
-        private const double pi = 3.14;
-
-
+      
         public double Volume()
         {
-            return 4.0/3.0 * pi * Math.Pow(_r,3);
+            return 4.0/3.0 * Math.PI * Math.Pow(_r,3);
         }
 
         public Sphere(double x, double y, double z, double rad)
@@ -33,7 +31,7 @@ namespace Thema_2019_Sphere
 
         public Sphere() : this(0.0, 0.0, 0.0, 1.0)
         {
-
+         
         }
 
         public override String ToString()
