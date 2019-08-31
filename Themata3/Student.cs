@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using System.Threading;
 
 namespace Themata3
 {
@@ -10,14 +6,15 @@ namespace Themata3
     {
         private string firstName;
         private string lastName;
-        private int aM;
+        private string aM;
 
         public Student()
         {
 
         }
 
-        public Student(string fName, string lName, int am)
+
+        public Student(string fName, string lName, string am)
         {
             firstName = fName ;
             lastName = lName;
@@ -31,7 +28,7 @@ namespace Themata3
             Console.WriteLine("Enter your Last Name");
             lastName = Console.ReadLine();
             Console.WriteLine("Enter your AM");
-            aM = Convert.ToInt32(Console.ReadLine());
+            aM = Console.ReadLine();
             Console.WriteLine($"Onoma: {firstName} Epitheto: {lastName} AM: {aM}");
         }
         public override string ToString()
@@ -43,7 +40,7 @@ namespace Themata3
         {
             Student s1 = new Student();
             s1.InputData();
-            Student s2 = new Student("Gregory ", "Sianopoulos " , 4414151);
+            Student s2 = new Student("Gregory ", "Sianopoulos " , "4414151");
             Console.WriteLine(s2);
         }
     }
